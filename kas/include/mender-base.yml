@@ -5,7 +5,7 @@ distro: poky
 
 repos:
   poky:
-    url: git://git.yoctoproject.org/poky
+    url: https://git.yoctoproject.org/poky
     commit: c162696dae5798e2ab1198403d0bc1d65d64068d
     layers:
       meta:
@@ -13,7 +13,7 @@ repos:
       meta-yocto-bsp:
 
   meta-openembedded:
-    url: git://git.openembedded.org/meta-openembedded
+    url: https://git.openembedded.org/meta-openembedded
     commit: e92d0173a80ea7592c866618ef5293203c50544c
     layers:
       meta-oe:
